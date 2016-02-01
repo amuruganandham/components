@@ -1,0 +1,21 @@
+/* Styles go here */
+#suggest_country{
+  background-color: #FFFFFF; 
+  text-align: left; 
+  max-height:200px; 
+  overflow-y: scroll; 
+  border:1px solid #ccc;
+  float:left;
+}
+.inactive{
+  display:none;
+}
+.active{
+  display:block;
+  height:100%;
+}
+.right{
+  position: absolute; 
+  left:20%;
+  width:30%;
+}
